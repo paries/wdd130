@@ -1,3 +1,9 @@
+---------------------------------------------------------------------------------------------------------------------------------------------
+Start AI sessions with this prompt:
+
+I am a beginning web development student learning HTML, CSS, Git, and GitHub. Please act as a tutor, not someone completing my assignment. Help me understand concepts, ask guiding questions, and explain errors. Do not write markup or CSS that solves my assignment. If examples help, use a different but similar problem.
+---------------------------------------------------------------------------------------------------------------------------------------------
+
 <!DOCTYPE html> what version of HTML 
 This is a development checklist item. The development checklist is a list of required components that must be included in every assignment that you submit in this course.
 
@@ -32,13 +38,18 @@ The head element contains information about the page. The content from this sect
  The <body> element contains the main content of the HTML document. There can be only one body element in a document. It contains all the content that you want to show to web users when they visit your page, including text, images, videos, and anything else you want the user to see.
 
 ✔ This is a development checklist item.
+---------------------------------------------------------------------------------------------------------------------------------------------
 
-------------------------------------------------------------------------------------------------------------------------------------------
+Alt Text Content Requirements
+It is required to provide meaningful and descriptive alt text for all images in all WDD courses. The standard is that at least two (2) word, relevant description is provided for each image. Typically this means that you should avoid using phrases such as "image of" or "picture of" in your alt text. Instead, just describe what the image is showing. For example, instead of using alt="image of a sunset", you would use alt="sunset over the mountains".
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------
 In this course, all images must be optimized in order to reduce overall page weight (the download size of the page). 
 The standard is that all images need to be less than 125kB in memory size. 
 If you have an image that is larger than 125kB, you will need to reduce its size by optimizing it.
 
-------------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------------
 
 Naming Convention Rules
 Use all lowercase syntax.
@@ -63,4 +74,5 @@ Use standard names for folders. In this class, the standard folder names for sub
 styles – Folders with this name contain CSS files.
 images – Folders with this name contain images.
 
-------------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------------
+To start a new html , start by typing hhml:5 and let the autocomplete create a boilerplate
