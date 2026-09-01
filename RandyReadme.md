@@ -76,3 +76,11 @@ images – Folders with this name contain images.
 
 ---------------------------------------------------------------------------------------------------------------------------------------------
 To start a new html , start by typing hhml:5 and let the autocomplete create a boilerplate
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+As described in this video, the most common types of images for the web are:
+JPEG / JPG: Typically used for photographs and complex images. Uses a compression that looses some information but can greatly reduce file size.
+PNG: Typically used for graphics, logos, and images requiring a transparent background. Uses compression that does not lose information and supports alpha transparency.
+GIF: Typically used for small animations and simple graphics. Limited to 256 colors, but does support basic transparency and animations.
+WEBP: A more modern format that supports better compression than JPG and PNG while also providing for animation and transparency. Can be used as an alternative to JPG and PNG, but it is not quite as popular at this point.
+SVG: Typically used for logos, icons, and text that need to scale cleanly to any size.
