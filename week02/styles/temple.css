@@ -1,11 +1,13 @@
 body{
     text-align: center;
 }
+
 header, footer {
     max-width: 400px;
     text-align: center;
     margin: auto;
 }
+
 header p{
     background-color: black;
     color: #fff;
