@@ -22,6 +22,7 @@ main h1{
 
 picture img{
     width: 213px;
+    height: auto;
     box-shadow: 0 0 15px #000;
 }
 
