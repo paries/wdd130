@@ -1,0 +1,57 @@
+body{
+    text-align: center;
+}
+header, footer {
+    max-width: 400px;
+    text-align: center;
+    margin: auto;
+}
+header p{
+    background-color: black;
+    color: #fff;
+    padding: 9px 6px;
+    margin:0;
+}
+
+main h1{
+    font-size: 22px;
+    margin: 7px;
+}
+
+picture img{
+    width: 213px;
+    box-shadow: 0 0 15px #000;
+}
+
+section{
+    width: 220px;
+    background-color: #D7D7D7;
+    padding: 5px 5px 15px 5px;
+    margin: 15px auto;
+    text-align: left;
+    font-size: 10px;
+}
+
+section h2{
+    padding: 3px 2px;
+    margin:7px 0 2px 0;
+    font-size: 12px;
+    border-bottom: 1px solid gray;
+}
+
+section p{
+    margin: 0 10px;
+}
+
+section ul{
+    margin: 0;
+    padding: 0 20px;
+}
+
+footer p{
+    background-color: black;
+    color: #fff;
+    padding: 9px 6px;
+    margin:0;
+    font-size: 12px;
+}
