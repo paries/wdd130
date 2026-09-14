@@ -1,3 +1,8 @@
+:root {
+    --primary-border-color: #000;
+    --primary-box-shadow-color: gray;    
+}
+
 nav {
     background-color: darkblue;
     padding: 10px;
@@ -16,9 +21,9 @@ h1 {
 img {
     width: 150px;
     height: auto;
-    border: 1px solid black;
+    border: 1px solid var(--primary-border-color);
     padding: 2px;
-    box-shadow: 0 0 30px gray;
+    box-shadow: 0 0 30px var(--primary-box-shadow-color);
 }
 
 p {
@@ -32,9 +37,9 @@ main {
 main img {
     width: 150px;
     height: auto;
-    border: 1px solid black;
+    border: 1px solid var(--primary-border-color);
     padding: 2px;
-    box-shadow: 0 0 30px gray;
+    box-shadow: 0 0 30px var(--primary-box-shadow-color);
 }
 
 aside {
@@ -43,7 +48,7 @@ aside {
     border: 1px solid #ccc;
     padding: 10px 20px;
     background-color: #efefef;
-    color:black
+    color:var(--primary-border-color)
 }
 
 aside img {
