@@ -58,7 +58,7 @@ header nav {
     width: 100%;
     padding: 16px;
     text-align: center;
-    opacity: 0.7;
+    opacity: 0.9;
     background-color: var(--accent1-color);
     color: var(--accent1-font-color); 
 }
