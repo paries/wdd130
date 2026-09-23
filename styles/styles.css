@@ -10,19 +10,14 @@
     --block-padding: 20px;   
 }
 
-nav {
-    background-color: darkblue;
-    padding: 10px;
-}
-
-nav a {
-    color: white;
-    display: block;
-    padding: 20px;
+header, footer, .grid {
+  max-width: 840px;
+  margin: 0 auto;
 }
 
 h1 {
     color: darkblue;
+    border-bottom: 1px solid #000;
 }
 
 img {
@@ -37,9 +32,30 @@ p {
     padding: 0;
 }
 
+nav {
+    background-color: darkblue;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+nav a {
+    color: white;
+    display: block;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.grid {
+    display: grid;
+}
+
 main {
-    padding: var(--block-padding);
-    max-width: 840px;
+    grid-column: 2/3;
+    margin: 1rem;
 }
 
 main img {
@@ -47,17 +63,29 @@ main img {
     height: auto;
     border: 1px solid var(--primary-border-color);
     padding: 2px;
+    margin: .5rem;
     box-shadow: 0 0 30px var(--primary-background-color);
     float: right;
 }
 
+main div {
+    margin: 1rem;
+}
+
+main p {
+    margin: .5rem;
+}
+
 aside {
-    margin: 10px 20px;
-    padding: var(--block-padding);
-    width: 40em;
-    text-align: center;
+    margin: 1rem;
+    width: 20rem;
+    padding: 1rem;
     position: relative;
     background-color: var(--background-color-lightgray);
+    grid-column: 1/2;
+    grid-row: 1/2;
+    align-items: center;
+    text-align: center;
 }
 
 aside img {
@@ -67,13 +95,18 @@ aside img {
 
 aside h2 {
     position: absolute;
-    top: 20px;
-    left: 230px;
+    top: 18px;
+    left: 115px;
 
 }
 
+aside p {
+    padding: 1rem;
+    text-align: left;
+}
+
+
 footer {
-    margin-top: 20px;
     border-top: 1px solid #ccc;
     text-align: center;
 }
