@@ -140,7 +140,6 @@ section h2 {
 .adventure {
     margin: 1rem;
     display: grid;
-    justify-content: center;
     align-items: center;   
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     justify-content: space-evenly;
