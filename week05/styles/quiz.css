@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  color: #333;
+  background: #fff;
+  font-weight: 300;
+}
+
+header {
+    text-align: center;
+    color: navy;
+}
+
+form {
+    background-color: #efefef;
+    width:650px;
+    margin: 10px auto;
+    padding: 20px;
+    border-radius: 0.5rem;
+    text-align: center;
+}
+
+fieldset {
+    padding: 10px;
+    border-radius: 0.3rem;
+    text-align: center;
+}
+
+fieldset ol{
+    padding: 0 0 0 20px;
+}
+
+ol li::marker {
+  font-weight: bold;
+  font-size: 1em;
+}
+
+fieldset li{
+    text-align: left;
+    margin: 0;
+    padding: 0;
+}
+
+
+fieldset p{
+    background-color: #000;
+    color: #fff;
+    margin:10px 80px;
+    padding: 10px;
+}
+
+
+label {
+    margin-top: 10px;
+    display: block;
+    text-align: left;
+}
+
+input, select, textarea {
+  padding: 0.5rem;
+  font-size: 1.1rem;
+  width: 95%;
+  font-weight: 300;
+}
+
+button {
+  margin: 1rem auto;
+  background-color: navy;
+  color: #fff;
+  border: none;
+  border-radius: .5rem;
+  padding: .75rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+  width: 500px;
+}
+
+button:hover {
+  background-color: white;
+  color:navy;
+  border: 1px solid #000;
+}
+
+footer {
+    text-align: center;
+    font-weight: 200;
+    color: lightgray;
+    font-size: .9em;
+}
