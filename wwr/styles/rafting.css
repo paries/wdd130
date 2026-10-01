@@ -321,7 +321,8 @@ input[type="checkbox"] {
     background-color: var(--alt-bg-color)
 }
 
-.contact-bottom h1{
+.contact-bottom h2{
+    background-color: transparent;
     color: var(--accent1-color);
     font-weight: 600;
     font-size: 1.4rem;
