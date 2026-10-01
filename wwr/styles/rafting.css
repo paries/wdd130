@@ -13,6 +13,7 @@
     --header-footer-bg-color: #F2C1BD;
     --button-color: #FBEEED;
     --shadow-color: #66281D;
+    --alt-bg-color: #FBEEED;
 }
 
 
@@ -193,4 +194,148 @@ footer p {
     padding: 0 10px;
 }
 
+
+/* Contact Us Form */
+.contact-top div {
+    margin: auto;
+    width: 400px;
+    text-align: center;
+}
+.contact-top div li {
+    list-style: none;
+    padding:2px;
+}
+
+.contact-middle{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.contact-middle iframe{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  width: 350px;
+  height: 350px;
+
+}
+
+/******************/
+fieldset {
+    padding: 10px;
+    border-radius: 0.5rem;
+    background-color: #f5f5f5;
+}
+
+legend {
+    color: darkblue;
+    font-size: 1.1em;
+    margin-left: 10px;
+    padding:4px;
+}
+
+
+label {
+    text-align: left;
+    padding-right: 1rem;
+    font-weight: 500;
+}
+
+.form-item {
+    padding: 5px;
+    display: grid;
+    align-items: center;
+}
+
+.form-item li {
+    list-style: none;
+    padding: .5em;
+}
+
+.form-item li label{
+    font-weight: 300;
+}
+
+
+.message-row {
+    grid-template-columns: 1fr;
+}
+
+.column1 {
+    grid-template-columns: 1fr 2fr;
+}
+.column2 {
+  grid-template-columns: 1fr 2fr;
+}
+
+.column3, .column3 label  {
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+input, select, textarea {
+  padding: 0.5rem;
+  font-size: 1.1rem;
+}
+
+
+input[type="checkbox"] {
+  width: 22px;
+  height: 22px;
+  vertical-align: bottom;
+}
+
+.submit {
+    margin: 5px;;
+    padding: 2px;
+
+}
+
+.submit label {
+    font-weight: 300;
+}
+
+.submit button {
+  margin: 10px 0;
+  background-color: var(--accent1-color);
+  color: #fff;
+  border: none;
+  border-radius: .5rem;
+  padding: .5rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+  width: 100%;
+}
+
+.submit button:hover {
+  background-color: white;
+  color:navy;
+  border: 1px solid #000
+}
+
+.contact-bottom {
+    text-align: center;
+    border: 1px solid var(--accent1-color);
+    padding: 10px 5px;
+    background-color: var(--alt-bg-color)
+}
+
+.contact-bottom h1{
+    color: var(--accent1-color);
+    font-weight: 600;
+    font-size: 1.4rem;
+}
+
+
+.contact-profiles {
+    margin: 1rem;
+    display: grid;
+    align-items: center;   
+    grid-template-columns: 1fr 1fr 1fr ;
+    justify-content: space-evenly;
+}
+.contact-profiles img {
+    width: 100px;
+}
 
