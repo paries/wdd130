@@ -14,6 +14,9 @@
     --button-color: #FBEEED;
     --shadow-color: #66281D;
     --alt-bg-color: #FBEEED;
+    --action-bg-color: #DAF6FD;
+    --action-button-color: #206571;
+    --index-font-color-dark: #36110B;
 }
 
 
@@ -339,4 +342,131 @@ input[type="checkbox"] {
 .contact-profiles img {
     width: 100px;
 }
+
+/* Index */
+
+.call-to-action {
+    position: absolute;
+    bottom: 40px;
+    left:40px;
+    background-color: var(--action-bg-color);
+    padding: 15px 20px;
+    border-radius: .5rem;
+    width:200px;
+    border: 1px solid #51DDF6;
+}
+
+.call-to-action h2{
+    color: #000;
+    font-weight: 400;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+
+.trips-button {
+    text-decoration: none;
+    margin: 10px 0;
+    background-color: var(--action-button-color);
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: .5rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+    width: 100%;
+}
+.trips-button:hover {
+  background-color: #DAF6FD;
+  color:#000;
+}
+
+.index-middle {
+    text-align: center;
+    margin:0px;
+}
+
+.purpose-offerings{
+    display: grid;
+    align-items: center;   
+    grid-template-columns: 1fr 1fr 1fr ;
+    justify-content: space-evenly;
+    color:var(--index-font-color-dark);
+    border: 1px #F2C1BD solid; 
+    background-color: #FBEEED;
+    margin: 0;
+    padding: 20px;
+}
+
+.purpose-offerings img {
+    width: 200px;
+    border: 2px var(--shadow-color) solid;
+}
+
+.index-form{
+    display: flex;
+    flex: auto ;
+    justify-content: center;
+    background-color: #F7D8D6; 
+    padding: 5px;
+    margin-top: 5px;
+    border: 1px #F2C1BD solid; 
+}
+
+.index-form div{
+    text-align: center;
+    padding: 5px;
+}
+
+.index-form h2, .index-form h3, .index-form .submit {
+    background-color: transparent;
+    color: var(--index-font-color-dark);
+}
+
+
+/* Trips */
+.trips {
+    color: #000;
+}
+
+.trips h1 {
+    text-align: center;
+    background-color: #FBEEED;
+}
+
+.trips tr:nth-child(even) {
+  background-color: #FBEEED;
+}
+
+.trips thead th {
+    background-color: var(--shadow-color);
+    color: #fff;
+    padding: 2px;
+}
+
+.trips th, .trips td {
+    vertical-align: top;
+    text-align: center;
+    width: 33%;
+    padding: 0 20px;
+}
+
+.trips tbody th {
+    text-align: left;
+}
+.trips tbody th, .trips tbody td {
+    padding: 10px;
+}
+
+.trips tbody img {
+    width: 200px;
+    height: auto;
+}
+.trips .svg {
+    width: 20px;
+    height: auto;
+}
+
+
+
 
