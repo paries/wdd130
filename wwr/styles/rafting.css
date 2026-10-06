@@ -11,41 +11,40 @@
     --primary-color: #000;
     --accent1-font-color: #fff;
     --header-footer-bg-color: #F2C1BD;
-    --button-color: #FBEEED;
     --shadow-color: #66281D;
-    --alt-bg-color: #FBEEED;
     --action-bg-color: #DAF6FD;
     --action-button-color: #206571;
     --index-font-color-dark: #36110B;
+    --light-bg-color: #FBEEED;
 }
 
 
 body {
-  font-family: var(--body-font);
-  color: var(--accent1-color);
+    font-family: var(--body-font);
+    color: var(--accent1-color);
 }
 
 header, main, footer {
-  width: 840px;
-  margin: 0 auto;
+    width: 840px;
+    margin: 0 auto;
 }
 
 h1, h2 {
-  font-family: var(--heading-font);
-  color: var(--primary-color);
+    font-family: var(--heading-font);
+    color: var(--primary-color);
 }
 
 p, section, article {
-  margin: 16px;
-  padding: 8px;
+    margin: 16px;
+    padding: 8px;
 }
 
 header {
     margin: .5rem auto;
-    display: grid;  
+    display: grid;
     grid-template-columns: 1fr 3fr;
     border: 1px solid #ccc;
-    align-items: center;    
+    align-items: center;
     padding: 20px 50px;
     max-width: 1000px;
     background-color: var(--header-footer-bg-color);
@@ -59,7 +58,7 @@ header {
 .navigation li {
     flex: 1 1 auto;
     border: 1px saddlebrown solid;
-    background-color: var(--button-color);
+    background-color: var(--light-bg-color);
 }
 
 .navigation a {
@@ -72,9 +71,9 @@ header {
 }
 
 header img {
-  height: 100px;
-  width: auto;
-  display: block; 
+    height: 100px;
+    width: auto;
+    display: block;
 }
 
 
@@ -95,7 +94,7 @@ header img {
     text-align: center;
     opacity: 0.9;
     background-color: var(--accent1-color);
-    color: var(--accent1-font-color); 
+    color: var(--accent1-font-color);
 }
 
 .hero article {
@@ -144,7 +143,7 @@ section h2 {
 .adventure {
     margin: 1rem;
     display: grid;
-    align-items: center;   
+    align-items: center;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     justify-content: space-evenly;
 }
@@ -174,7 +173,7 @@ footer p {
     position: absolute;
     top:17px;
     right:10px;
-    align-items: center;  
+    align-items: center;
     text-align: center;
 }
 
@@ -210,17 +209,17 @@ footer p {
 }
 
 .contact-middle{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
 }
 
 .contact-middle iframe{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 1rem;
-  width: 350px;
-  height: 350px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    width: 350px;
+    height: 350px;
 
 }
 
@@ -269,7 +268,7 @@ label {
     grid-template-columns: 1fr 2fr;
 }
 .column2 {
-  grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 2fr;
 }
 
 .column3, .column3 label  {
@@ -278,15 +277,15 @@ label {
 }
 
 input, select, textarea {
-  padding: 0.5rem;
-  font-size: 1.1rem;
+    padding: 0.5rem;
+    font-size: 1.1rem;
 }
 
 
 input[type="checkbox"] {
-  width: 22px;
-  height: 22px;
-  vertical-align: bottom;
+    width: 22px;
+    height: 22px;
+    vertical-align: bottom;
 }
 
 .submit {
@@ -300,28 +299,28 @@ input[type="checkbox"] {
 }
 
 .submit button {
-  margin: 10px 0;
-  background-color: var(--accent1-color);
-  color: #fff;
-  border: none;
-  border-radius: .5rem;
-  padding: .5rem;
-  font-size: 1.2rem;
-  cursor: pointer;
-  width: 100%;
+    margin: 10px 0;
+    background-color: var(--accent1-color);
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: .5rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+    width: 100%;
 }
 
 .submit button:hover {
-  background-color: white;
-  color:navy;
-  border: 1px solid #000
+    background-color: white;
+    color:navy;
+    border: 1px solid #000
 }
 
 .contact-bottom {
     text-align: center;
     border: 1px solid var(--accent1-color);
     padding: 10px 5px;
-    background-color: var(--alt-bg-color)
+    background-color: var(--light-bg-color)
 }
 
 .contact-bottom h2{
@@ -335,7 +334,7 @@ input[type="checkbox"] {
 .contact-profiles {
     margin: 1rem;
     display: grid;
-    align-items: center;   
+    align-items: center;
     grid-template-columns: 1fr 1fr 1fr ;
     justify-content: space-evenly;
 }
@@ -363,36 +362,23 @@ input[type="checkbox"] {
     margin-bottom: 20px;
 }
 
-
-.trips-button {
-    text-decoration: none;
-    margin: 10px 0;
-    background-color: var(--action-button-color);
-    color: #fff;
-    border: none;
-    border-radius: .5rem;
-    padding: .5rem;
-    font-size: 1.2rem;
-    cursor: pointer;
-    width: 100%;
-}
-.trips-button:hover {
-  background-color: #DAF6FD;
-  color:#000;
-}
-
 .index-middle {
     text-align: center;
     margin:0px;
 }
 
+.index-middle h2{
+    font-weight: 400;
+}
+
+
 .purpose-offerings{
     display: grid;
-    align-items: center;   
+    align-items: center;
     grid-template-columns: 1fr 1fr 1fr ;
     justify-content: space-evenly;
     color:var(--index-font-color-dark);
-    border: 1px #F2C1BD solid; 
+    border: 1px #F2C1BD solid;
     background-color: #FBEEED;
     margin: 0;
     padding: 20px;
@@ -407,10 +393,10 @@ input[type="checkbox"] {
     display: flex;
     flex: auto ;
     justify-content: center;
-    background-color: #F7D8D6; 
+    background-color: #F7D8D6;
     padding: 5px;
     margin-top: 5px;
-    border: 1px #F2C1BD solid; 
+    border: 1px #F2C1BD solid;
 }
 
 .index-form div{
@@ -431,11 +417,11 @@ input[type="checkbox"] {
 
 .trips h1 {
     text-align: center;
-    background-color: #FBEEED;
+    background-color: var(--light-bg-color);
 }
 
 .trips tr:nth-child(even) {
-  background-color: #FBEEED;
+    background-color: var(--light-bg-color);
 }
 
 .trips thead th {
@@ -467,6 +453,35 @@ input[type="checkbox"] {
     height: auto;
 }
 
+.contact-us{
+    text-align: center;
+    padding: 10px 0 0 0;
+}
 
+.contact-us div{
+    margin: 15px;
+}
+
+.contact-us h2{
+    background-color: var(--light-bg-color);
+    color: #000;
+}
+
+.trips-button {
+    text-decoration: none;
+    margin: 10px 0;
+    background-color: var(--action-button-color);
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: .5rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+    width: 100%;
+}
+.trips-button:hover {
+    background-color: #DAF6FD;
+    color:#000;
+}
 
 
